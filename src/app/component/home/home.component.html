@@ -1,0 +1,18 @@
+<!-- @for (userlists of userlist; track userlists.id; let i = $index) {
+    <h1 style="margin-top: 50px;">{{ userlists.name }}</h1>
+} -->
+<div style="margin-top: 5rem">
+  <div
+    style="
+      border: 1px solid #ccc;
+      width: fit-content;
+      margin: auto;
+      padding: 40px;
+      border-radius: 10px;
+    "
+  >
+    <h1>Welcome : {{ userlist.name }}</h1>
+    <h2>Role : {{ userlist.role }}</h2>
+    <h3>Email : {{ userlist.email }}</h3>
+  </div>
+</div>

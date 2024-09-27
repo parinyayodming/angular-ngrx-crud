@@ -1,0 +1,284 @@
+{
+  "associate": [
+    {
+      "id": "1",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "No 2\nRamraj street, chennai\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Akbar",
+      "email": "akbar@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "No 2\nRamraj street, Delhi\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@inc.com",
+      "phone": "899089898",
+      "associategroup": "level2",
+      "address": "No 2\nRamraj street, chennai test\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "7",
+      "name": "Albert Einstien",
+      "email": "albert@in.com",
+      "phone": "78899999",
+      "associategroup": "level1",
+      "address": "no 1 ,new street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "8",
+      "name": "NT user",
+      "email": "nt@in.com",
+      "phone": "7899900",
+      "associategroup": "level2",
+      "address": "test",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "9",
+      "name": "Akbar",
+      "email": "test@in.com",
+      "phone": "33333",
+      "associategroup": "level1",
+      "address": "test",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "name": "Adminuser",
+      "email": "ad@in.com",
+      "phone": "678888",
+      "gender": "male",
+      "role": "manager",
+      "status": true,
+      "id": "1"
+    },
+    {
+      "username": "testuser",
+      "password": "test",
+      "name": "NT User",
+      "email": "nt@in.com",
+      "phone": "678889999",
+      "gender": "female",
+      "role": "manager",
+      "status": true,
+      "id": "2"
+    },
+    {
+      "username": "ntuser",
+      "password": "test",
+      "name": "NT User 2",
+      "email": "nt1@in.com",
+      "phone": "66888999",
+      "gender": "male",
+      "role": "admin",
+      "status": true,
+      "id": "3"
+    },
+    {
+      "id": "dd5b",
+      "username": "parinya",
+      "password": "1234",
+      "name": "parinya yodming",
+      "email": "pond.yodming@gmail.com",
+      "phone": "0881878392",
+      "gender": "male",
+      "role": "user",
+      "status": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin",
+      "id": "8efe"
+    },
+    {
+      "code": "manager",
+      "name": "Manager",
+      "id": "4833"
+    },
+    {
+      "code": "user",
+      "name": "User",
+      "id": "4049"
+    }
+  ],
+  "menu": [
+    {
+      "code": "associate",
+      "Name": "Associate",
+      "id": "4444"
+    },
+    {
+      "code": "customer",
+      "Name": "Customer",
+      "id": "20ae"
+    },
+    {
+      "code": "user",
+      "Name": "User",
+      "id": "d726"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "associate",
+      "id": "e100"
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "id": "4dbb"
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "id": "6eee"
+    },
+    {
+      "role": "manager",
+      "menu": "associate",
+      "id": "1514"
+    },
+    {
+      "role": "manager",
+      "menu": "customer",
+      "id": "363c"
+    },
+    {
+      "role": "user",
+      "menu": "associate",
+      "id": "72d0"
+    }
+  ],
+  "company": [
+    {
+      "code": 1,
+      "name": "NT Infotech",
+      "area": "chennai",
+      "branchcount": 4,
+      "id": "16fc"
+    },
+    {
+      "code": 2,
+      "name": "RN Infotech",
+      "area": "Banglore",
+      "branchcount": 5,
+      "id": "fb68"
+    },
+    {
+      "code": 3,
+      "name": "TSN Infotech",
+      "area": "Banglore",
+      "branchcount": 0,
+      "id": "9b6a"
+    }
+  ],
+  "companydata": [
+    {
+      "code": 1,
+      "branches": [
+        {
+          "code": "HQ001",
+          "street": "Street 1",
+          "city": "Kansas"
+        },
+        {
+          "code": "HQ002",
+          "street": "Street 2",
+          "city": "Texas"
+        },
+        {
+          "code": "HQ003",
+          "street": "Street 2",
+          "city": "Texas"
+        },
+        {
+          "code": "HQ004",
+          "street": "Street 2",
+          "city": "Texas"
+        },
+        {
+          "code": "HQ005",
+          "street": "Street 2",
+          "city": "Texas"
+        },
+        {
+          "code": "HQ006",
+          "street": "Street 2",
+          "city": "Texas"
+        }
+      ],
+      "employee": [
+        {
+          "code": "HQ001",
+          "name": "Street 1",
+          "age": 95
+        }
+      ],
+      "id": "278a"
+    },
+    {
+      "code": 2,
+      "branches": [
+        {
+          "code": "SQ001",
+          "street": "Street 1",
+          "city": "Kansas"
+        },
+        {
+          "code": "SQ002",
+          "street": "Street 2",
+          "city": "Texas"
+        }
+      ],
+      "employee": [
+        {
+          "code": "HQ002",
+          "name": "Rahul",
+          "age": 195
+        }
+      ],
+      "id": "9675"
+    },
+    {
+      "code": 3,
+      "branches": [],
+      "employee": [
+        {
+          "code": "HQ002",
+          "name": "Rahul",
+          "age": 195
+        },
+        {
+          "code": "HQ0021",
+          "name": "Rahul",
+          "age": 195
+        }
+      ],
+      "id": "8160"
+    }
+  ]
+}
